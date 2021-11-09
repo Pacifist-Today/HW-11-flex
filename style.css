@@ -258,11 +258,6 @@ body {
     color: #000000;
 }
 
-.describe-card {
-   /* margin-top:90px;
-    margin-bottom:250px;*/
-}
-
 .text-cards {
     display: flex;
     padding-top:90px;
@@ -298,6 +293,7 @@ body {
     flex-direction: row;
     align-items:center;
     justify-content: center;
+    flex-wrap:wrap;
 }
 
 .possibilities-block {
@@ -305,7 +301,8 @@ body {
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    
+    width: 330px;
+
 }
 
 .poss-img-block {
@@ -324,8 +321,7 @@ body {
 .possibilities-name {
     font-weight: 600;
     font-size: 25px;
-    line-height: 35px;
-    
+    line-height: 35px;   
     color: #000000;
 }
 
@@ -337,18 +333,39 @@ body {
 
 .possibilities {
     background: #FFF8E4;
-    padding-left:78px;
-    
+    padding-top:120px;
+    padding-bottom:147px;
 }
 
-.possibilities-describe.poss-describe-first {
-    width:303px;
+.possibilities-block.pos-block-second {
+    margin-right:100px;
+    margin-left:100px;
 }
 
-.possibilities-describe.poss-describe-second {
-    width:330px;
+.possibilities-block.pos-block-fourth {
+    margin-top:75px;
+}
+
+.possibilities-block.pos-block-fifth {
+    margin-right: 100px;
+    margin-left:100px;
+    margin-top:75px;
+}
+
+.possibilities-block.pos-block-sixth {
+    margin-top:75px;
 }
 
 .possibilities-describe.poss-describe-third {
     width:281px;
+}
+
+.locka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:79px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
 }
