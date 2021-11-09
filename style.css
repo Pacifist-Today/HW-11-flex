@@ -181,17 +181,20 @@ body {
 }
 
 .companies {
+    display: block;
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
     width: 720px;
     text-align: center;
-    margin-right:auto;
-    margin-left:auto;
+    margin-bottom:70px;
 }
 
 .companies-tool {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .firms {
@@ -200,7 +203,7 @@ body {
     width: auto;
     background-color: #FF9C7D;
     padding-top:108px;
-    padding-bottom:108px;
+    padding-bottom:104px;
 }
 
 .firms-list {
@@ -213,6 +216,13 @@ body {
 
 .firm-item {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height:53px;
+    width: 215px;
+}
+
+.firm-link {
     justify-content: center;
 }
 
@@ -230,7 +240,6 @@ body {
     font-size: 50px;
     line-height: 60px;
     width:493px;
-    margin:
 }
 
 .single-workspace {
@@ -328,7 +337,7 @@ body {
 
 .possibilities {
     background: #FFF8E4;
-    margin-left:78px;
+    padding-left:78px;
     
 }
 
