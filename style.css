@@ -28,16 +28,26 @@ body {
     margin-right:51px;
 }
 
+.header {
+    display: flex;
+}
+
 .header-nav {
-    display:flex;
-    margin-top:14px;
+    display: flex;
+    flex-direction: row;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .service-item {
-    display: inline-block;
-    margin-right:50px;
+    display: flex;
+    flex-direction: row;
     font-size: 15px;
-    line-height: 20px;
+    margin-right:50px;
 }
 
 .service-link {
@@ -224,6 +234,7 @@ body {
 
 .firm-link {
     justify-content: center;
+    align-items: center;
 }
 
 .describe-text {
@@ -276,16 +287,16 @@ body {
     width:379px;
 }
 
-.describe-text.describe-text-revers .single-workspace {
-    width:450px;
-}
-
 .single-workspace.built-in-tools {
     width:520px;
 }
 
 .text-cards.text-cards-reverse.text-cards-last {
     padding-bottom:150px;
+}
+
+.single-workspace.single-workspace-second {
+    width:450px;
 }
 
 .poss-data {
@@ -435,13 +446,15 @@ body {
 .platform-text-img {
     display:flex;
     flex-direction: row;
-
+    margin-right:85px;
 }
 
 .dreading {
+    width:895px;
     font-size: 30px;
     line-height: 40px;
     margin-top:63px;
+    margin-right: 85px;
 }
 
 .chief {
@@ -501,7 +514,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+}
+
+.users {
+    margin-top:14px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.75px;
 }
 
 .nature {
@@ -675,4 +694,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.emptylinks {
+    color:#000000;
 }
