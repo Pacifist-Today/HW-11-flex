@@ -427,3 +427,31 @@ body {
 .fac-block.fac-block-third {
     margin-top:84px;
 }
+
+.platform {
+    background-color: #C9E8F2;
+}
+
+.platform-text-img {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.dreading {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top:63px;
+}
+
+.chief {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top:23px;
+    margin-bottom:7px;
+}
+
+.officer-block {
+    margin-top:53px;
+    margin-bottom:105px;
+}
