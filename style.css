@@ -369,3 +369,61 @@ body {
     font-size: 50px;
     line-height: 60px;
 }
+
+.boost {
+    padding-top:154px;
+    padding-bottom:187px;
+}
+
+.all-fac-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.fac-block {
+    display: flex;
+    flex-direction: column;
+    width:430px;
+}
+
+.fac-name {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.fac-describe {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top:34px;
+    margin-bottom:25px;
+    width:409px;
+}
+
+.fac-link {
+    color: #000000;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.locka.boost-name {
+    margin-bottom:0px;
+}
+
+.fac-img-block.fac-img-block-first {
+    padding-top:75px;
+    padding-bottom:49px;
+}
+
+.fac-img-block.fac-img-block-second {
+    padding-top:92px;
+    padding-bottom:67px;
+}
+
+.fac-img-block.fac-img-block-third {
+    padding-bottom:58px;
+}
+
+.fac-block.fac-block-third {
+    margin-top:84px;
+}
