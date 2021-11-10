@@ -455,3 +455,52 @@ body {
     margin-top:53px;
     margin-bottom:105px;
 }
+
+.software {
+    background-color:#DABC98;
+}
+
+.cake-rate {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cake-describe {
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.cake-block {
+    margin-top:89px;
+    margin-bottom:89px;
+}
+
+.management {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    width:461px;
+    margin-left:67px;
+    margin-top:116px;
+    margin-bottom:116px;
+    margin-right:103px;
+}
+
+.rate-companies {
+    display: flex;
+    flex-direction: row;
+    padding-left: 71px;
+    border-left:1px solid #000000;
+}
+
+.company {
+    height:168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
