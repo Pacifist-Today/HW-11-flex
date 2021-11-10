@@ -650,3 +650,29 @@ body {
     line-height: 15px;
     color:#000000;
 }
+
+.copyrights {
+    background-color: #EEEEEE;
+}
+
+.workflow-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:52px;
+    margin-top:52px;
+}
+
+.workflow {
+    font-size: 12px;
+    line-height: 15px;
+    width: 301px;
+    margin-left:14px;
+    margin-right:700px;
+}
+
+.copyright-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
