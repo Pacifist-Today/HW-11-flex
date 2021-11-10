@@ -504,3 +504,44 @@ body {
     
 }
 
+.nature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.tools {
+    margin-top:165px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    width: 791px;
+    text-align: center;
+}
+
+.automate {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom:25px;
+    width:539px;
+    text-align: center;
+}
+
+.bird-block {
+    margin-bottom:32px;
+}
+
+.integration-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF6336;
+    text-decoration: none;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:162px;
+}
