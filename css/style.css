@@ -859,6 +859,24 @@ body {
   .single-workspace.built-in-tools {
     width: 100%;
   }
+
+  /* localize with Lokalise */
+  .locka {
+    font-size: 40px;
+    line-height: 50px;
+    width: 100%;
+  }
+
+  .possibilities-block.pos-block-first,
+.possibilities-block.pos-block-second,
+.possibilities-block.pos-block-third,
+.possibilities-block.pos-block-fourth,
+.possibilities-block.pos-block-fifth,
+.possibilities-block.pos-block-sixth {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
 }
 @media (max-width: 767px) {
   .container-smoother {
@@ -1098,6 +1116,23 @@ body {
   .text-cards.text-cards-reverse.text-cards-last {
     padding: 0px;
     margin-bottom: 80px;
+  }
+
+  /* localize with Lokalise */
+  .possibilities-block.pos-block-first,
+.possibilities-block.pos-block-second,
+.possibilities-block.pos-block-third,
+.possibilities-block.pos-block-fourth,
+.possibilities-block.pos-block-fifth,
+.possibilities-block.pos-block-sixth {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .locka {
+    font-size: 45px;
+    line-height: 60px;
   }
 }
 
