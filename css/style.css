@@ -699,9 +699,10 @@ body {
   color: #000000;
 }
 
-@media (max-width: 1290px) {
+@media (max-width: 1289px) {
   .container-smoother {
     padding: 0 15px;
+    width: auto;
   }
 
   .header-nav {
@@ -722,27 +723,149 @@ body {
     margin-top: 20px;
   }
 
-  .h1-font, .accelerate {
+  .introduction-block {
+    flex-direction: row;
+  }
+
+  .h1-font768, .accelerate {
     font-weight: 600;
     font-size: 50px;
     line-height: 55px;
   }
 
   .accelerate {
-    width: 300px;
+    width: 100%;
   }
 
   .localization {
-    width: 300px;
+    width: 100%;
     margin-bottom: 15px;
   }
 
+  .first-layer {
+    padding-top: 50px;
+    width: 40%;
+  }
+
+  .buttons-introduction {
+    width: 100%;
+  }
+
+  .no-credit {
+    width: 100%;
+  }
+
+  .interlocutors {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 55%;
+  }
+
   .interlocutors-img {
-    width: 400px;
-    height: 250px;
+    width: 100%;
+  }
+
+  .firms-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .firms {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* cards first block */
+  .cards {
+    margin-top: 80px;
+  }
+
+  .describe-text {
+    margin-right: 0px;
+    width: 50%;
+  }
+
+  .text-cards {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .control-process {
+    width: 100%;
+  }
+
+  .single-workspace {
+    width: 100%;
+  }
+
+  .start-now {
+    width: 100%;
+  }
+
+  .text-cards {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .describe-card {
+    width: 50%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .describe-card-img {
+    width: 100%;
+  }
+
+  /* cards second block */
+  .text-cards.text-cards-reverse {
+    flex-direction: row;
+  }
+
+  .describe-text.describe-text-revers {
+    margin-left: 0px;
+    width: 50%;
+  }
+
+  .single-workspace.single-workspace-second {
+    width: 100%;
+  }
+
+  .describe-card.describe-card-revers {
+    width: 50%;
+  }
+
+  .describe-card-img {
+    width: 100%;
+  }
+
+  /* cards third block */
+  .single-workspace.built-in-tools {
+    width: 100%;
+  }
+
+  /* cards fourth block */
+  .text-cards.text-cards-reverse.text-cards-last {
+    width: 100%;
+  }
+
+  .describe-text.describe-text-revers {
+    width: 50%;
+  }
+
+  .single-workspace.built-in-tools {
+    width: 100%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .container-smoother {
+    padding: 0 15px;
+    width: auto;
+  }
+
   .logo-link {
     margin-right: 0;
   }
@@ -790,8 +913,191 @@ body {
   }
 
   .try-link {
-    padding-right: 107px;
-    padding-left: 107px;
+    padding-left: 100%;
+    padding-right: 100%;
+  }
+
+  .introduction {
+    padding: 0;
+  }
+
+  .h1-font360, .companies, .accelerate {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 30px;
+  }
+
+  .accelerate {
+    width: 100%;
+  }
+
+  .localization {
+    width: 300px;
+    margin-bottom: 15px;
+  }
+
+  .interlocutors-img {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .first-layer {
+    padding-top: 30px;
+    width: 30%;
+  }
+
+  .interlocutors {
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+  .buttons-introduction {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .demo-link {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+
+  .try-link.try-link-bigger {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+
+  .no-credit {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .companies {
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .firms-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .firms {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .firm-item {
+    margin-top: 10px;
+  }
+
+  /* cards first block */
+  .describe-text {
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .text-cards {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .text-cards {
+    flex-direction: column;
+  }
+
+  .h3-font360, .control-process {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .control-process {
+    width: 100%;
+  }
+
+  .p-cards360, .single-workspace {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .single-workspace {
+    width: 100%;
+  }
+
+  .start-now {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .text-cards {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .describe-card {
+    width: 100%;
+  }
+
+  .describe-card-img {
+    width: 100%;
+  }
+
+  /* cards second block */
+  .text-cards.text-cards-reverse {
+    flex-direction: column;
+  }
+
+  .describe-text.describe-text-revers {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .describe-card.describe-card-revers {
+    width: 90%;
+  }
+
+  .describe-card-revers-img {
+    width: 100%;
+  }
+
+  .single-workspace.single-workspace-second {
+    width: 100%;
+  }
+
+  /* cards third block */
+  .control-process {
+    width: 100%;
+  }
+
+  .text-cards.text-cards-reverse.text-cards-last {
+    width: 100%;
+  }
+
+  .describe-text.describe-text-revers {
+    width: 100%;
+  }
+
+  .single-workspace.built-in-tools {
+    width: 100%;
+  }
+
+  .describe-card.describe-card-revers {
+    width: 100%;
+  }
+
+  /* cards fourth block */
+  .describe-text.describe-text-revers .control-process {
+    width: 100%;
+  }
+
+  .text-cards.text-cards-reverse.text-cards-last {
+    padding: 0px;
+    margin-bottom: 80px;
   }
 }
 
