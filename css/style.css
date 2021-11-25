@@ -978,6 +978,16 @@ body {
   .integration-link {
     margin-bottom: 50px;
   }
+
+  /* made easy */
+  .tools.madeeasy {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .try-link.try-link-bigger.try-black {
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 767px) {
   .container-smoother {
@@ -1333,6 +1343,14 @@ body {
     padding-left: 20%;
     padding-right: 20%;
     width: 100%;
+  }
+
+  /* made it easy */
+  .try-link.try-link-bigger.try-black {
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 100%;
+    text-align: center;
   }
 }
 
