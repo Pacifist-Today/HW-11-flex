@@ -734,7 +734,13 @@ body {
   }
 
   .introduction-block {
+    width: 100%;
     flex-direction: row;
+  }
+
+  .try-link.try-link-bigger {
+    padding-left: 43px;
+    padding-right: 43px;
   }
 
   .h1-font768, .accelerate {
@@ -1035,16 +1041,6 @@ body {
     width: 25%;
   }
 
-  /* copyright */
-  /*.copyrights {
-      display: flex;
-      width:auto;
-      margin:auto;
-  }*/
-  /*.copyrights .container-smoother {
-      margin:0;
-      margin:auto;
-  }*/
   .cop-work-block {
     width: 100%;
     display: flex;
@@ -1082,27 +1078,36 @@ body {
     margin-right: 0;
   }
 
+  .header-nav {
+    width: 100%;
+  }
+
   .services-list {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
   .service-item {
-    margin-right: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
     margin-bottom: 15px;
   }
 
   .service-item.pricing-service-item {
-    margin-right: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
 
   .service-item.case-service-item {
-    margin-right: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
 
   .service-item.last-service-item {
-    margin-right: 0;
+    margin-right: 15px;
+    margin-left: 15px;
   }
 
   .logo-block {
@@ -1112,21 +1117,25 @@ body {
   .top-buttons-block {
     flex-direction: column;
     width: 100%;
-    margin: auto;
   }
 
   .log-link {
-    padding-right: 120px;
-    padding-left: 120px;
+    width: 100%;
+    padding-right: 30%;
+    padding-left: 30%;
+    text-align: center;
   }
 
   .log-block {
+    width: 100%;
     margin-right: 0px;
   }
 
   .try-link {
-    padding-left: 100%;
-    padding-right: 100%;
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
   }
 
   .introduction {
@@ -1143,6 +1152,10 @@ body {
     width: 100%;
   }
 
+  .introduction .container-smoother {
+    flex-direction: column;
+  }
+
   .localization {
     width: 300px;
     margin-bottom: 15px;
@@ -1155,14 +1168,15 @@ body {
 
   .first-layer {
     padding-top: 30px;
-    width: 30%;
+    width: 100%;
   }
 
   .interlocutors {
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     margin-bottom: 0;
     margin-top: 20px;
+    padding-top: 0px;
   }
 
   .buttons-introduction {
@@ -1171,13 +1185,26 @@ body {
   }
 
   .demo-link {
-    padding-left: 96px;
-    padding-right: 96px;
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+  }
+
+  .try-block {
+    width: 100%;
+  }
+
+  .try-block-bigger {
+    width: 100%;
+    margin: 0;
   }
 
   .try-link.try-link-bigger {
-    padding-left: 110px;
-    padding-right: 110px;
+    width: 100%;
+    padding-left: 35%;
+    padding-right: 35%;
+    text-align: center;
   }
 
   .no-credit {
@@ -1313,6 +1340,11 @@ body {
   }
 
   /* localize with Lokalise */
+  .possibilities {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .possibilities-block.pos-block-first,
 .possibilities-block.pos-block-second,
 .possibilities-block.pos-block-third,
