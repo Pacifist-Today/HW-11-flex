@@ -136,7 +136,6 @@ body {
 }
 
 .introduction {
-  padding-left: 24px;
   border-top: 1px solid #CCCCCC;
 }
 
@@ -184,6 +183,11 @@ body {
 .interlocutors {
   margin-top: 151px;
   margin-bottom: 182px;
+}
+
+.interlocutors-img {
+  width: 738px;
+  height: 516px;
 }
 
 .first-layer {
@@ -275,12 +279,22 @@ body {
   padding-bottom: 250px;
 }
 
+.describe-text.describe-card-third {
+  margin-right: 135px;
+}
+
+.describe-text.describe-text-revers.describe-text-fourth {
+  margin-right: 0px;
+  margin-left: 135px;
+}
+
 .text-cards.text-cards-reverse {
   flex-direction: row-reverse;
 }
 
 .describe-text.describe-text-revers {
   margin-left: 165px;
+  margin-right: 0px;
 }
 
 .describe-text.describe-text-revers .control-process {
@@ -649,6 +663,10 @@ body {
   width: 187px;
   margin-right: 34px;
   margin-top: 97px;
+}
+
+.category.fourth-category {
+  margin-right: 0;
 }
 
 .category-name {
