@@ -866,7 +866,8 @@ body {
         flex-direction: row;
     }
 
-    .describe-text.describe-text-revers {
+    .describe-text.describe-text-revers,
+    .describe-text.describe-text-revers.describe-text-fourth {
         margin-left:0px;
         width:50%;
     }
@@ -889,14 +890,14 @@ body {
         width:100%;
     }
 
+    .describe-text.describe-card-third {
+        margin-right:0;
+    }
+
     /* cards fourth block */
 
     .text-cards.text-cards-reverse.text-cards-last {
         width:100%;
-    }
-
-    .describe-text.describe-text-revers {
-        width:50%;
     }
 
     .single-workspace.built-in-tools {
@@ -1200,7 +1201,8 @@ body {
 
     .interlocutors-img {
         display: inline-block;
-        width:100%
+        width:100%;
+        height:100%;
     }
 
     .first-layer {
@@ -1322,6 +1324,9 @@ body {
 
     .describe-card {
         width:100%;
+        padding-right: 0;
+        padding-top: 0;
+        padding-left: 0;
     }
 
     .describe-card-img {
@@ -1332,6 +1337,11 @@ body {
 
     .text-cards.text-cards-reverse {
         flex-direction: column;
+        width:100%;
+    }
+
+    .describe-text.describe-text-revers .control-process {
+        width:100%;
     }
 
     .describe-text.describe-text-revers {
@@ -1340,7 +1350,10 @@ body {
     }
 
     .describe-card.describe-card-revers {
-        width:90%;
+        width:100%;
+        padding-right: 0;
+        padding-top: 0;
+        padding-left: 0;
     }
 
     .describe-card-revers-img {
@@ -1372,11 +1385,18 @@ body {
 
     .describe-card.describe-card-revers {
         width:100%;
+        padding-right: 0;
+        padding-top: 0;
+        padding-left: 0;
     }
 
     /* cards fourth block */
 
-    .describe-text.describe-text-revers .control-process {
+    .describe-text.describe-text-revers.describe-text-fourth {
+        width:100%;
+    }
+
+    .describe-text.describe-text-revers.describe-text-fourth .control-process {
         width:100%;
     }
 
@@ -1520,6 +1540,10 @@ body {
     }
 
     /* footer */
+
+    .category-list.category-list-second {
+        margin-right:0px;
+    }
 
     .footer-block {
         width:100%;
